@@ -410,3 +410,37 @@
         margin-right: 5px;
     }
 }
+
+/* For Desktop Devices */
+
+@media(min-width: 791px){
+    .section-1 .description-1 h1{
+        font-size: 1.7rem;
+    }
+    .form-field-1 input:first-child{
+        width: 52%;
+    }
+    .form-field-1 > input:nth-child(2){
+        width: 44%;
+    }
+    .section-2 .description-2 h3{
+        font-size: 2rem;
+    }
+    .description-3 h3{
+        font-size: 2rem;
+    }
+    .description-3 h3, .description-3 p{
+        margin-top: 15px;
+        text-align: left;
+    }
+    .form-field-2 > input:nth-child(2){
+        width: 45%;
+    }
+    .footer{
+        flex-direction: row;
+        height: 250px;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+}
