@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{}
 .container{
     max-width: 350px;
     margin: 0 auto;
@@ -26,7 +25,6 @@ body{}
     text-decoration: none;
     color: hsl(0, 0%, 75%);
 }
-.section-1{}
 .section-1 .illustration-1{
     height: 300px;
     padding: 20px 35px 20px 20px;
@@ -201,6 +199,7 @@ body{}
     align-items: flex-start;
     height: 500px;
     color: hsl(0, 0%, 75%);
+    flex-wrap: wrap;
 }
 .footer-location{
     padding: 20px 0px 0 20px;
@@ -265,6 +264,14 @@ body{}
 .footer-socials>ul>li{
     list-style: none;
 }
+.author{
+    width: 100%;
+}
+.author p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
 /* For Tablet Devices */
 
@@ -272,8 +279,6 @@ body{}
     .container{
         max-width: 900px;
         margin: 0 auto;
-    }
-    .section-1{
     }
     .section-1{
         display: flex;
